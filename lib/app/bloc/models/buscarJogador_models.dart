@@ -6,6 +6,7 @@ class BuscarjogadorModels {
   final String player_country;
   final String player_number;
   final String team_name;
+  bool isFavorite;
 
   BuscarjogadorModels(
       {required this.player_name,
@@ -14,7 +15,9 @@ class BuscarjogadorModels {
       required this.player_image,
       required this.player_country,
       required this.player_number,
-      required this.team_name}
+      required this.team_name,
+      this.isFavorite=false,
+      }
   );
 
   factory BuscarjogadorModels.fromJson(json) {
