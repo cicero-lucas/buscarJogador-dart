@@ -1,16 +1,14 @@
 # projeto02
 
-A new Flutter project.
+O projeto é aplicativo desenvolvido em Flutter para buscar e favoritar jogadores de futebol. Ele consiste em várias telas que permitem aos usuários realizar as seguintes ações:
 
-## Getting Started
+Login e Cadastro: Essa funcionalidade permite que os usuários façam login ou se cadastrem no aplicativo.
 
-This project is a starting point for a Flutter application.
+Home Page: Após o login, os usuários são redirecionados para a página inicial, onde podem buscar jogadores ou visualizar seus favoritos.
 
-A few resources to get you started if this is your first Flutter project:
+Buscar Jogador: Nesta tela, os usuários podem pesquisar jogadores de futebol. Os resultados da pesquisa são mostrados em cards e os usuários têm a opção de favoritar os jogadores encontrados.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Favoritos: A página de favoritos exibe uma lista dos jogadores que foram marcados como favoritos pelos usuários.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Provider:
+O Provider é uma biblioteca do Flutter que oferece uma maneira simples e eficaz de gerenciar o estado da aplicação e fornecer acesso aos objetos em diferentes partes da hierarquia de widgets.
